@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "git clone https://gitlab.com/jadons19292/sayang.git && cd sayang && next build",
     "start": "next start",
     "lint": "next lint"
   },
